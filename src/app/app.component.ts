@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bubbling';
+
+	childClicked(event){
+		alert('Child clicked');
+	}
+
+	parentClicked(event){
+		alert('Parent clicked');
+	}
 }
+

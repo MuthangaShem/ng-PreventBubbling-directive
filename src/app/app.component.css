@@ -1,0 +1,10 @@
+div{
+	border: 5px blue solid;
+	padding: 25px;
+}
+div:hover{
+	cursor: pointer;
+}
+button:hover{
+	cursor: pointer;
+}
